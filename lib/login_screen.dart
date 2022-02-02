@@ -24,7 +24,7 @@ class _LoginState extends State<Login> {
 
   Future<void> Loging() async {
     var response = await http.post(Uri.parse("https://demoapi.remis.ng/Login"),
-        body: ({'jones_indie@mailinator.com', 'password123'}));
+        body: ({'jones_indie@mailinator.com', 'password13'}));
 
     if (response.statusCode == 200) {
       var detail =
